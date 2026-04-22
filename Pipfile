@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+numpy = "*"
+seaborn = "*"
+folium = "*"
+streamlit-folium = "*"
+xgboost = "*"
+scikit-learn = "*"
+marchmlproject = {editable = true, file = "file:///Volumes/GBC/final%20project/MarchMLProject"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
